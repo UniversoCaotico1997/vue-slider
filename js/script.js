@@ -60,5 +60,16 @@ createApp({
                 }
             ]
         }
+    },
+    methods:{
+        prevImage(){
+            // console.log(`immagine precedente`);
+            this.index--
+        },
+        nextImage(){
+            // console.log(`immagine successiva`);
+            this.index++
+        }
+
     }
 }).mount('#app')
